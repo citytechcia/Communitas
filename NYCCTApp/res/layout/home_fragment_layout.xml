@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border" >
+
+    <FrameLayout
+        android:id="@+id/campusServiceLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/news_event_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+            android:id="@+id/campusServiceImageView"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/border"
+            android:contentDescription="@string/image_content_desc"
+            android:src="@drawable/campus_service_image" />
+
+        <TextView
+            android:id="@+id/campusServiceImageName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/transparent_background_color"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/campus_service"
+            android:textColor="@android:color/white" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/classCancelLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/campusServiceLayout"
+        android:layout_toRightOf="@+id/campusServiceLayout" >
+
+        <ImageView
+            android:id="@+id/classCancelImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="@drawable/border"
+            android:contentDescription="@string/image_content_desc"
+            android:src="@drawable/class_cancel_image" />
+
+        <TextView
+            android:id="@+id/classCancelImageName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/transparent_background_color"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/class_cancel"
+            android:textColor="@android:color/white" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/groupsnLoopsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/classCancelLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/classCancelLayout"
+        android:layout_below="@+id/classCancelLayout" >
+
+        <ImageView
+            android:id="@+id/groupsnLoppsImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="@drawable/border"
+            android:contentDescription="@string/image_content_desc"
+            android:src="@drawable/groups_image" />
+
+        <TextView
+            android:id="@+id/groupsnLoopsImageName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/transparent_background_color"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/groups_in_loops"
+            android:textColor="@android:color/white" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/clubInfoLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/groupsnLoopsLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/groupsnLoopsLayout"
+        android:layout_below="@+id/groupsnLoopsLayout" >
+
+        <ImageView
+            android:id="@+id/clubInfoImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="@drawable/border"
+            android:contentDescription="@string/image_content_desc"
+            android:src="@drawable/club_info_image" />
+
+        <TextView
+            android:id="@+id/clubInfoImageName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/transparent_background_color"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/club_information"
+            android:textColor="@android:color/white" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/officeHoursLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/campusServiceLayout"
+        android:layout_alignLeft="@+id/clubInfoLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/clubInfoLayout"
+        android:layout_below="@+id/clubInfoLayout" >
+
+        <ImageView
+            android:id="@+id/officeHoursImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:contentDescription="@string/image_content_desc"
+            android:src="@drawable/office_hour_image" />
+
+        <TextView
+            android:id="@+id/officeHoursImageName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/transparent_background_color"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/office_hours"
+            android:textColor="@android:color/white" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/news_event_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/news_event"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/newsEventHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@color/light_blue"
+            android:gravity="center"
+            android:text="@string/news_event_heading"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_size_large" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/news_event"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/light_blue" >
+
+        <LinearLayout
+            android:id="@+id/newsEventGallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal" />
+    </HorizontalScrollView>
+
+</RelativeLayout>
