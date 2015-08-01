@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/walterrada/Downloads/Communitas-master/NYCCTApp1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/walterrada/Downloads/Communitas-master/NYCCTApp1/app/build/intermediates/pre-dexed/debug/classes-a159b807e0c800b80d7374a4f16cebeaedd20f71.jar" />
+    </item>
+    <item
+        jar="/Users/walterrada/Downloads/Communitas-master/NYCCTApp1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/walterrada/Downloads/Communitas-master/NYCCTApp1/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-fea92feab88f1e7a09ec6cc490036beab6abb951.jar" />
+    </item>
+    <item
+        jar="/Users/walterrada/Downloads/Communitas-master/NYCCTApp1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/walterrada/Downloads/Communitas-master/NYCCTApp1/app/build/intermediates/pre-dexed/debug/classes-2259259438ebd56111778897f826ec30a51239a3.jar" />
+    </item>
+    <item
+        jar="/Users/walterrada/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/walterrada/Downloads/Communitas-master/NYCCTApp1/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-eae001c167be04ae97e60f84cc600223d6525722.jar" />
+    </item>
+    <item
+        jar="/Users/walterrada/Downloads/Communitas-master/NYCCTApp1/app/libs/jsoup-1.8.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3d57e95c0f150b885ccdbda7a12bef353fd31d02">
+        <dex dex="/Users/walterrada/Downloads/Communitas-master/NYCCTApp1/app/build/intermediates/pre-dexed/debug/jsoup-1.8.1-34f9910a5beb2c01e4c23238183a1f732715385b.jar" />
+    </item>
+
+</items>
